@@ -1,0 +1,23 @@
+{
+    "name": "eva/api-doc",
+    "description": "Api doc",
+    "keywords": [],
+    "homepage": "https://github.com/thewarmthofyourhands",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thewarmthofyourhands"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "eva/common": "dev-main",
+        "eva/filesystem": "dev-main",
+        "symfony/yaml": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eva\\ApiDoc\\": "src/"
+        }
+    }
+}
