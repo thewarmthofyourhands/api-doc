@@ -77,6 +77,7 @@ class Generator
                     'boolean' => 'bool',
                     'integer' => 'int',
                     'double' => 'float',
+                    'NULL' => 'null',
                     default => $type,
                 };
                 $properties[$name] = ['type' => $type, 'default' => $value];
