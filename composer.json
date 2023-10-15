@@ -10,9 +10,10 @@
         }
     ],
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.2",
         "eva/common": "dev-main",
         "eva/filesystem": "dev-main",
+        "eva/console": "dev-main",
         "symfony/yaml": "^6.1"
     },
     "autoload": {
